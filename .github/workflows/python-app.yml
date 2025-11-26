@@ -25,8 +25,6 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          ls 
-          cat temp2.py
           python temp2.py
 
   job2:
